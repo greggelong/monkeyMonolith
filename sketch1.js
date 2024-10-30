@@ -23,7 +23,7 @@ const wordMap = {
 
 function preload() {
   classifier = ml5.imageClassifier(
-    "https://teachablemachine.withgoogle.com/models/inQ7Q6S_2/"
+    "https://teachablemachine.withgoogle.com/models/ikAnilCd2/"
   );
 }
 
