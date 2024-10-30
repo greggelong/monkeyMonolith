@@ -78,7 +78,7 @@ function draw() {
     cbard.speak("猴子必须觉醒，通过劳作变得更加睿智。");
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
-    bard.speak("Monkeys must awaken, growing wiser through labor.   ee aa uh uh ee ee ee oh oh");
+    bard.speak("Monkeys must awaken, growing wiser through labor.   ew, ew, ah, ah, ew, ew, ah, ah ");
 
     
     
@@ -95,10 +95,10 @@ function speakit() {
   
     //bard.setVoice("Microsoft YaoYao - Chinese (Simplified, PRC)")
   
-    cbard.speak("我看到" +wordMap[label]);
+    cbard.speak("学习" +wordMap[label]);
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
-    bard.speak("I see the "+label);
+    bard.speak("Study the "+label);
   }
 
   function loaded() {
