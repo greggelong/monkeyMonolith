@@ -16,7 +16,7 @@ const wordMap = {
   "corn": "玉米",
   "pig": "猪",
   "wood": "木头",
-  "monkey": "猩猩",
+  "ape": "猩猩",
   "world": "世界"
 };
 
@@ -98,12 +98,7 @@ function speakit() {
     cbard.speak("学习" +wordMap[label]);
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
-    let label2
-    if (label ==="monkey"){
-      lable2 = "ape"
-    }else{
-      lable2 = label
-    }
+     
     bard.speak("Study the "+label);
   }
 
