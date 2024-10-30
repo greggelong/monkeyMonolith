@@ -16,7 +16,7 @@ const wordMap = {
   "corn": "玉米",
   "pig": "猪",
   "wood": "木头",
-  "monkey": "猴子",
+  "monkey": "猩猩",
   "world": "世界"
 };
 
@@ -75,10 +75,10 @@ function draw() {
   
     //bard.setVoice("Microsoft YaoYao - Chinese (Simplified, PRC)")
   
-    cbard.speak("猴子必须觉醒，通过劳作变得更加睿智。");
+    cbard.speak("猩猩必须觉醒，通过劳作变得更加睿智。");
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
-    bard.speak("Monkeys must awaken, growing wiser through labor.   ew, ew, ah, ah, ew, ew, ah, ah ");
+    bard.speak("Apes must awaken, growing wiser through labor.   ew, ew, ah, ah, ew, ew, ah, ah ");
 
     
     
@@ -98,6 +98,12 @@ function speakit() {
     cbard.speak("学习" +wordMap[label]);
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
+    let label2
+    if (label ==="monkey"){
+      lable2 = "ape"
+    }else{
+      lable2 = label
+    }
     bard.speak("Study the "+label);
   }
 
