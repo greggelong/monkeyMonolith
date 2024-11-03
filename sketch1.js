@@ -78,8 +78,8 @@ function draw() {
     cbard.speak("猩猩必须觉醒，通过劳作变得更加睿智。");
     //bard.setVoice("Microsoft Mark - English (United States)")
     bard.setLang("en-US");
-    bard.speak("Apes must awaken, growing wiser through labor.   ew, ew, ah, ah, ew, ew, ah, ah ");
-
+    //bard.speak("Apes must awaken, growing wiser through labor.   ew, ew, ah, ah, ew, ew, ah, ah ");
+    bard.speak("Apes must awaken, growing wiser through labor. ");
     
     
   }
